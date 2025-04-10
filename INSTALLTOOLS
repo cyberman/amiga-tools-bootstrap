@@ -1,0 +1,6 @@
+; Installationstool für AmigaOS
+echo "Installiere Tools..."
+copy df0:lha C: >NIL:
+copy df0:unzip C: >NIL:
+copy df0:more C: >NIL:
+echo "Fertig!"
